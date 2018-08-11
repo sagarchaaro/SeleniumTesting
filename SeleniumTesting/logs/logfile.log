@@ -1,0 +1,17 @@
+11-08-2018 20:13:04 INFO [Log]: *****************************************************************
+11-08-2018 20:13:04 INFO [Log]: **********FB Registration************
+11-08-2018 20:13:04 INFO [Log]: ******************************************************************
+11-08-2018 20:13:07 INFO [Log]: Matched Test Row is: 4
+11-08-2018 20:16:07 INFO [Log]: *****************************************************************
+11-08-2018 20:16:07 INFO [Log]: **********FB Registration************
+11-08-2018 20:16:07 INFO [Log]: ******************************************************************
+11-08-2018 20:16:09 INFO [Log]: Matched Test Row is: 4
+11-08-2018 20:16:29 INFO [Log]: New Driver is instantiated for CHROME browser.
+11-08-2018 20:16:29 INFO [Log]: Implict wait is applied on the Driver for 10 seconds
+11-08-2018 20:16:29 INFO [Log]: Browser Launched
+11-08-2018 20:17:01 INFO [Log]: facebook account website is launched
+11-08-2018 20:17:04 INFO [Log]: FirstName text-box is found on FaceBook Registration page
+11-08-2018 20:17:04 INFO [Log]: The current tag name is: input
+11-08-2018 20:17:17 INFO [Log]: XXX---------E-N-D--------------XXX
+11-08-2018 20:17:17 INFO [Log]: X
+11-08-2018 20:17:17 INFO [Log]: X

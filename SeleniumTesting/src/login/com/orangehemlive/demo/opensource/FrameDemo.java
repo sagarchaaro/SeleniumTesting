@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriver.TargetLocator;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FrameDemo {
+	@SuppressWarnings("rawtypes")
 	public static void main(String args[]) throws Exception{
 		System.setProperty("webdriver.chrome.driver", "D:\\Workspace\\Jars and Drivers\\Drivers\\Chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();

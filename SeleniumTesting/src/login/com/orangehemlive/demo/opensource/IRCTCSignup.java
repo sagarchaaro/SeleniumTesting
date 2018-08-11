@@ -92,13 +92,12 @@ public class IRCTCSignup {
 		//driver.findElement(By.name("userRegistrationForm:statesName")).sendKeys("Andhra Pradesh");
 		//System.out.println("state is entered");
 		WebElement city=driver.findElement(By.name("userRegistrationForm:cityName"));
-		Select s8= new Select(city);
-		//s8.getFirstSelectedOption();
+		new Select(city);
+		
 		((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
 		System.out.println("city is selected");
 		WebElement pos=driver.findElement(By.name("userRegistrationForm:postofficeName"));
-		Select s9= new Select(pos);
-		//s9.getFirstSelectedOption();
+		new Select(pos);
 		System.out.println("post ofice is selected");
 		driver.findElement(By.name("userRegistrationForm:landline")).sendKeys("444508567");
 		System.out.println("phone is entered");

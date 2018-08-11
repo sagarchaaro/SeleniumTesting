@@ -31,6 +31,7 @@ public class ExcelLogin {
 		}
 	}
 	
+	@SuppressWarnings("resource")
 	public static void main(String args[]) throws Exception{
 		System.out.println(new File(".").getAbsoluteFile());
 		

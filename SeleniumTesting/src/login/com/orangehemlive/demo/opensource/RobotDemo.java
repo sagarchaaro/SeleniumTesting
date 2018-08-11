@@ -1,10 +1,9 @@
 package login.com.orangehemlive.demo.opensource;
 
 import java.awt.Robot;
-import java.awt.event.InputEvent;
+
 import java.awt.event.KeyEvent;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +17,7 @@ public class RobotDemo {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[text()=' Click here to enter your name ']")).click();
 		Thread.sleep(2000);
-		Alert jsalert=driver.switchTo().alert();
+		driver.switchTo().alert();
 		Thread.sleep(2000);
 		Robot r=new Robot();
 		r.keyPress(KeyEvent.VK_BACK_SPACE);

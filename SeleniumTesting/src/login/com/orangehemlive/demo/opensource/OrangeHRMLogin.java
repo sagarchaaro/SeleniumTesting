@@ -29,6 +29,7 @@ public class OrangeHRMLogin {
 		}
 	}
 	
+	@SuppressWarnings("resource")
 	public static void main(String arg[]) throws Exception{
 		FileInputStream fis=new FileInputStream("D:\\Workspace\\Test Data\\Login.xlsx");
 		XSSFWorkbook wbk=new XSSFWorkbook(fis);

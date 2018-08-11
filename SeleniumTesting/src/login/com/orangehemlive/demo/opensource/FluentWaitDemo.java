@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
 public class FluentWaitDemo {
+	@SuppressWarnings({ "unused", "deprecation" })
 	public static void main(String args[]) throws Exception{
 		System.setProperty("webdriver.chrome.driver", "D:\\Learning\\Drivers\\Chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
